@@ -1,19 +1,30 @@
-@Legislation{2009,
+@Online{2009,
   date       = {2009-06-22},
   title      = {DECRETO DEL PRESIDENTE DELLA REPUBBLICA 22 giugno 2009, n. 122},
   url        = {https://www.gazzettaufficiale.it/gunewsletter/dettaglio.jsp?service=1&datagu=2009-08-19&task=dettaglio&numgu=191&redaz=009G0130&tmstp=1251275907525},
+  note       = {GU Serie Generale n.191 del 19-08-2009},
+  urldate    = {2023-05-19},
   citation   = {DPR 22 giugno 2009, n. 122},
-  note       = {(GU Serie Generale n.191 del 19-08-2009)note: Entrata in vigore del provvedimento: 20/8/2009},
   printed    = {GU Serie Generale n.191 del 19-08-2009},
   shorttitle = {Regolamento recante coordinamento delle norme vigenti per la valutazione degli alunni e ulteriori modalita' applicative in materia, ai sensi degli articoli 2 e 3 del decreto-legge 1° settembre 2008, n. 137, convertito, con modificazioni, dalla legge 30 ottobre 2008, n. 169. (09G0130)},
 }
 
-@Legislation{2011,
+@Online{2011,
   date       = {2011-03-04},
   title      = {Circolare n.20 4 marzo 2011},
   url        = {https://www.miur.gov.it/documents/20182/0/cm20_11.pdf/2051f782-fe1f-4d58-8ef1-6b29b221b28c},
+  urldate    = {2023-05-19},
   owner      = {cladu},
   shorttitle = {Validità dell’anno scolastico per la valutazione degli alunni nella scuola secondaria diprimo e secondo grado- Artt. 2 e 14 DPR 122/2009},
+}
+
+@Online{1999,
+  date     = {1999-03-08},
+  title    = {DECRETO DEL PRESIDENTE DELLA REPUBBLICA 8 marzo 1999, n. 275},
+  url      = {https://www.gazzettaufficiale.it/eli/id/1999/08/10/099G0339/sg},
+  note     = {GU Serie Generale n.186 del 10-08-1999 - Suppl. Ordinario n. 152},
+  subtitle = {Regolamento recante norme in materia di autonomia delle istituzioni scolastiche, ai sensi dell'art. 21 della legge 15 marzo 1997, n. 59},
+  urldate  = {2023-05-19},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
