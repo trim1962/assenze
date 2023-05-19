@@ -4,20 +4,24 @@
 % \usepackage{fontspec}
 \usepackage{amsmath}
 \usepackage[a4paper]{geometry}
-\usepackage{babel}
+\usepackage[italian]{babel}
+\usepackage[style=italian]{csquotes}
+\usepackage[style=philosophy-modern]{biblatex}
+\addbibresource{assenze.bib}
 \begin{document}
 \section*{Assenze}
 La normativa prevede che: 	DPR n. 122 del 22 giugno 2009 art. 14 c. 7 che recita
 
 \begin{quotation}
 
- “[…]ai fini della validità dell’anno scolastico
+ “[…]ai fini della validità dell'anno scolastico
 […] per poter procedere alla valutazione finale di ciascun studente, 
 è richiesta la frequenza di almeno tre
-quarti dell’orario annuale personalizzato”.
+quarti dell'orario annuale personalizzato”.
 \end{quotation}
+Quindi è errato e fuorviante parlare di giorni d'assenza.
 
-la Circolare n.20 Roma, 4 marzo 2011 spiega cosa è l'orario annuale personalizzato
+la Circolare n.20, 4 marzo 2011 spiega cosa è l'orario annuale personalizzato
 
 	\begin{quotation}
 		[..]
@@ -44,13 +48,13 @@ la Circolare n.20 Roma, 4 marzo 2011 spiega cosa è l'orario annuale personalizz
 	parte del consiglio di classe 
 	[..]
 	\end{quotation}
-Qui abbiamo il primo problema se un alunno non si avvale della religione cattolica 
-bisogna togliere le 33 ore annuali di religione.
+Qui abbiamo il primo problema se un alunno non si avvale della religione cattolica, 
+dobbiamo togliere le 33 ore annuali di religione.
 
-Il monte ore annuale è quindi se poniamo che vi siano 33 settimane di 32 ore
+Il monte ore annuale è quindi, se poniamo che vi siano 33 settimane di 32 ore
 
 \[monte\; ore=33\times 32=1056\]
-mentre il monte ore per chi non avvale è ponendo che vi siano 33 ore di religione
+mentre il monte ore per chi non avvale è, ponendo che vi siano 33 ore di religione,
 
 \[monte\; ore=33\times 32-33=1023\]
 
@@ -63,9 +67,9 @@ Il registro elettronico Spaggiari  ha tre modi diversi per calcolare le assenze 
 
 Coordinatore $-->$ Stampe Registro $-->$ Assenze 
 \begin{description}
-	\item[Su assenze e presenze] Vengono rilevate le ore di presenza, le ore di assenza e la percentuale di assenza è \[PA=\dfrac{Assenze}{Assenze+Presenze}\times 100\]
-	\item[Su monte ore annuali] Le ore di assenza vengono divide per il monte ore annuali \[PA=\dfrac{Assenze}{1056}\times 100\]
-	\item[Su monte ore attuale] Le ore di assenza vengono divide per il monte ore attuale cioè per il totale delle ore che la classe ha attualmente svolto  \[PA=\dfrac{Assenze}{Monte\; ore\; attule}\times 100\]
+	\item[Su assenze e presenze] Il registro elettronico tiene conto delle ore di assenza e presenza di un alunno  in base a quello che inserisce durante la firma appello, quindi un errore, una mancata firma etc. causa dei  calcoli non corretti \[PA=\dfrac{Assenze}{Assenze+Presenze}\times 100\]
+	\item[Su monte ore annuali] Le ore di assenza vengono divise per il monte ore annuale \[PA=\dfrac{Assenze}{1056}\times 100\]
+	\item[Su monte ore attuale] Le ore di assenza vengono divide per il monte ore attuale cioè per il totale delle ore che la classe ha attualmente svolto. Queste ore sono calcolate dal registro dopo l'inserimento dell'orario settimanale, orario annuale, eventuali chiusure per forza maggiore inserite nel registro.   \[PA=\dfrac{Assenze}{Monte\; ore\; attule}\times 100\]
 \end{description}
 Facciamo alcuni esempi pratici
 
@@ -87,4 +91,6 @@ Alunno	& P & A &  P+A &Moa & \%PeA & \%MO & \%MoA   \\
 \end{tabular} 
 \end{center}
 Aggiungiamo che 1 è arrivato durante l'anno scolastico. La percentuale per quanto esprime la normativa è MO perché riferita al mote ore annuale.
+\nocite{*}
+\printbibliography
 \end{document}
