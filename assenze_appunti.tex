@@ -1,0 +1,90 @@
+% !TXS template
+% !TeX TS-program = lualatex
+\documentclass{article}
+% \usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+\usepackage{babel}
+\begin{document}
+\section*{Assenze}
+La normativa prevede che: 	DPR n. 122 del 22 giugno 2009 art. 14 c. 7 che recita
+
+\begin{quotation}
+
+ “[…]ai fini della validità dell’anno scolastico
+[…] per poter procedere alla valutazione finale di ciascun studente, 
+è richiesta la frequenza di almeno tre
+quarti dell’orario annuale personalizzato”.
+\end{quotation}
+
+la Circolare n.20 Roma, 4 marzo 2011 spiega cosa è l'orario annuale personalizzato
+
+	\begin{quotation}
+		[..]
+	Personalizzazione del monte ore annuo
+	L’art. 11 del decreto legislativo n. 59/2004 e i richiamati articoli 
+	2 e 14 del Regolamento
+	parlano espressamente di “orario annuale personalizzato”.
+	A riguardo è opportuno precisare che tali riferimenti devono essere interpretati per la scuola secondaria di primo grado 
+	alla luce del nuovo assetto ordinamentale 
+	definito dal d.P.R. 20 marzo
+	2009 n. 89 (in particolare dall'art. 5) e, per la scuola 
+	secondaria 
+	di secondo grado, in relazione alla
+	specificità dei piani di studio propri di ciascuno dei percorsi 
+	del nuovo o vecchio ordinamento
+	presenti presso le istituzioni scolastiche.
+	L’intera questione della personalizzazione va, comunque, inquadrata
+	 per tutta la scuola secondaria nella cornice normativa del d.P.R. 275/99 e,
+	 in particolare, degli artt. 8 e 9 del predetto regolamento.
+	Pertanto devono essere considerate,a tutti gli effetti, 
+	come rientranti nel monte ore annuale del curricolo di ciascun 
+	allievo tutte le attività 
+	oggetto di formale valutazione intermedia e finale da
+	parte del consiglio di classe 
+	[..]
+	\end{quotation}
+Qui abbiamo il primo problema se un alunno non si avvale della religione cattolica 
+bisogna togliere le 33 ore annuali di religione.
+
+Il monte ore annuale è quindi se poniamo che vi siano 33 settimane di 32 ore
+
+\[monte\; ore=33\times 32=1056\]
+mentre il monte ore per chi non avvale è ponendo che vi siano 33 ore di religione
+
+\[monte\; ore=33\times 32-33=1023\]
+
+Le conseguenze di questo è che l'alunno che non si avvale ha una percentuale di assenze, a parità di numero, maggiore rispetto a quello che si avvale. Esempio Pierino e Carlo hanno 200 ore di assenza, Pierino si avvale Carlo no quindi
+\[Assenze\; Pierino=\dfrac{200}{1023}\times 100=20\%\]
+\[Assenze\; Carlo=\dfrac{200}{1056}\times 100=19\%\]
+
+\section*{Assenze Spaggiari}
+Il registro elettronico Spaggiari  ha tre modi diversi per calcolare le assenze per gli alunni. Il coordinatore ha accesso a questi tramite il percorso
+
+Coordinatore $-->$ Stampe Registro $-->$ Assenze 
+\begin{description}
+	\item[Su assenze e presenze] Vengono rilevate le ore di presenza, le ore di assenza e la percentuale di assenza è \[PA=\dfrac{Assenze}{Assenze+Presenze}\times 100\]
+	\item[Su monte ore annuali] Le ore di assenza vengono divide per il monte ore annuali \[PA=\dfrac{Assenze}{1056}\times 100\]
+	\item[Su monte ore attuale] Le ore di assenza vengono divide per il monte ore attuale cioè per il totale delle ore che la classe ha attualmente svolto  \[PA=\dfrac{Assenze}{Monte\; ore\; attule}\times 100\]
+\end{description}
+Facciamo alcuni esempi pratici
+
+A oggi, 16 maggio abbiamo in una classe, questa situazione:
+
+\begin{center}
+	\begin{tabular}{|l|c|c|c|c|c|c|c|}
+	\hline
+Alunno	& P & A &  P+A &Moa & \%PeA & \%MO & \%MoA   \\
+	\hline
+1	& 506 & 130& 636 & 951 & 20 & 12 & 14   \\
+	\hline
+2	&763  &64&827  & 951 &7  & 6 &  7  \\
+	\hline
+3	&627  &200&827  & 951 &24  & 19 &  21  \\
+	\hline
+4	&680  &145&825  & 951 &17  & 14 &  15  \\
+\hline
+\end{tabular} 
+\end{center}
+Aggiungiamo che 1 è arrivato durante l'anno scolastico. La percentuale per quanto esprime la normativa è MO perché riferita al mote ore annuale.
+\end{document}
